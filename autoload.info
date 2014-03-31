@@ -1,4 +1,4 @@
 name = Libraries autoloader
-description = Use native PHP 5 __autoload for libraries including (Example path /libraries/ClassName/ClassName.php)
+description = Use native PHP 5 spl_autoload_register for libraries including (Example path /libraries/ClassName/ClassName.php)
 core = 7.x
 
