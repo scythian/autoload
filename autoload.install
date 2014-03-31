@@ -1,0 +1,9 @@
+<?php
+/**
+ * @file
+ * Nothing to do
+ */
+
+function autoload_install() {
+    //nothing to do
+}

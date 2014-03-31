@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Autoloader
+ * Use for autoload libraries
+ * Example path /libraries/ClassName/ClassName.php
+ */
+
+module_load_include('inc', 'autoload', 'includes/__loader');
+
+function autoload_init() {
+    spl_autoload_register(array('__loader', 'loadLibrary'));
+}
